@@ -1,0 +1,78 @@
+		*{
+	padding:0;
+	margin:0;
+	box-sizing:box-border;
+}	
+#start{
+	width:100px;
+	height:100px;
+	
+	background:skyblue;
+	text-align:center;
+}
+#start:hover{
+      width:300px;
+	  transition-duration: 2s;
+}	  
+
+#linear{
+	width:100px;
+	height:100px;
+	background-color:red;
+
+}
+#linear:hover{
+	width:500px;
+	transition-duration:2s;
+}
+#ease{
+	width:100px;
+	height:100px;
+	background-color:skyblue;
+}
+#ease:hover{
+    width:400px;
+    transition-duration:2s;
+}	
+#in{
+	width:100px;
+	height:100px;
+	background-color:green;
+}
+#in:hover{
+	width:300px;
+	transition-duration:4s;
+}
+#out{
+	width:100px;
+	height:100px;
+	background-color:pink;
+}
+#out{
+  width:100px;
+  height:100px;
+background-color:yellow;
+}
+#out:hover{
+    width:400px;
+    transition-duration:3s;
+}
+#inout{
+    width:100px;
+    height:100px;
+    background-color:gold;
+}
+#inout:hover{
+   width:300px;
+   transition-duration:3s;
+}
+#delay{
+    width:100px;
+     height:100px;
+      background-color:orange;
+}
+#delay:hover{
+    width:400px;
+	transition-duration:2s;
+    transition-delay:2s;
+}	
